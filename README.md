@@ -8,19 +8,18 @@ A real-time, resilient polling application built for the Intervue.io SDE Intern 
 
 - **Frontend**: React (Vite), TypeScript, CSS Modules (Custom Design System).
 - **Backend**: Node.js, Express, Socket.io.
-- **Database**: PostgreSQL (via Prisma ORM).
-- **Real-time**: Socket.io (Events: `poll:created`, `vote:update`, `timer:sync`).
+- **Database**: Supabase (a postgres db)
 
 ## Features
 
-### Teacher Persona
+### TeacherView
 
 - **Create Polls**: Set questions, options, and a timer (e.g., 60s).
 - **Live Dashboard**: View real-time participation updates.
 - **Poll History**: Review past poll results.
 - **Kick Student**: Remove disruptive students from the session.
 
-### Student Persona
+### StudentView
 
 - **Interactive Onboarding**: Enter name to join.
 - **Live Polling**: Receive questions instantly.
@@ -70,25 +69,13 @@ A real-time, resilient polling application built for the Intervue.io SDE Intern 
     - Student: `http://localhost:5173/student`
     - Teacher: `http://localhost:5173/teacher`
 
-## Deployment
 
 
-This project is configured for **Render Blueprints**.
-
-## Design System
-
-The UI was built to match the provided Figma specifications pixel-perfectly, featuring:
-
-- **Font**: Sora.
-- **Colors**: Custom palette (Mars Purple `#5767D0`).
-- **Layout**: strictly defined dimensions for cards and buttons.
-
-## Assignments Checklist
+## Features
 
 - [x] Teacher: Create Poll & History.
 - [x] Student: Join, Vote, Real-time updates.
 - [x] Resilience: Refresh logic & Late Joiner Sync.
-- [x] Bonus: Kicking functionality.
 - [x] UI: Figma compliance.
 
 ---
