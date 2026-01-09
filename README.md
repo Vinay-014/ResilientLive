@@ -6,10 +6,9 @@ A real-time, resilient polling application built for the Intervue.io SDE Intern 
 
 ## Tech Stack
 
-- **Frontend**: React (Vite), TypeScript, CSS Modules (Custom Design System).
+- **Frontend**: React (Vite), TypeScript, CSS.
 - **Backend**: Node.js, Express, Socket.io.
 - **Database**: Supabase (a postgres db).
-- **Real-time**: Socket.io (Events: `poll:created`, `vote:update`, `timer:sync`).
 
 ## Features
 
