@@ -8,7 +8,7 @@ A real-time, resilient polling application built for the Intervue.io SDE Intern 
 
 - **Frontend**: React (Vite), TypeScript, CSS Modules (Custom Design System).
 - **Backend**: Node.js, Express, Socket.io.
-- **Database**: PostgreSQL (via Prisma ORM).
+- **Database**: Supabase (a postgres db).
 - **Real-time**: Socket.io (Events: `poll:created`, `vote:update`, `timer:sync`).
 
 ## Features
