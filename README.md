@@ -1,14 +1,13 @@
 # Resilient Live Polling System
 
-A real-time, resilient polling application built for the Intervue.io SDE Intern assignment. This system allows teachers to create polls and students to vote in real-time, handling connection drops and page reloads gracefully.
-
+A real-time, resilient polling application platform which allows teachers to create polls and students to vote in real-time, handling connection drops and page reloads alongside seamlessly allowing the poll results and history with real time chat window for in both student view and teacher view for realtime texts and participant management.
 
 
 ## Tech Stack
 
-- **Frontend**: React (Vite), TypeScript, CSS.
+- **Frontend**: React (Vite), TypeScript, CSS Modules (Custom Design System).
 - **Backend**: Node.js, Express, Socket.io.
-- **Database**: Supabase (a postgres db).
+- **Database**: Supabase (a postgres db)
 
 ## Features
 
@@ -31,10 +30,12 @@ A real-time, resilient polling application built for the Intervue.io SDE Intern 
 - **State Recovery**: Refreshing the page maintains the user's state (Active Poll, Timer, Vote Status).
 - **Edge Cases**: Handles late joiners, kicked students, and network reconnection.
 
+## Getting Started
+
 ### Prerequisites
 
 - Node.js (v18+)
-- Supabase URL and Key
+- SUPABASE URL and KEY
 
 ### Local Setup
 
